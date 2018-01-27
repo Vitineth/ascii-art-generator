@@ -14,7 +14,7 @@ import os.path
 import threading
 
 test = list("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!\"£$%^&*()-_=+`¬#~'@;:/?.>,<\\| ")
-cor = ImageFont.truetype(r"Desktop/cour.ttf", 12)
+cor = ImageFont.truetype(r"cour.ttf", 12)
 
 def generateImg(char, font):
     im = Image.new("RGBA", font.getsize(char), (0, 0, 0))
