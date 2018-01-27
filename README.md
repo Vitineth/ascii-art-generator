@@ -219,3 +219,10 @@ This isn't the best way to perform this, in hindsight. A better way would be to 
 ### Running
 
 All that is left after this is to call the `toASCII` function with an input and output file and let it run. The rest of the program is just sugar in order to make it work nice such as a Tkinter window for entering the values. 
+
+## Example Outputs
+
+|Input|Output|
+|-|-|
+|![Example 1 Input](images/1_before.png)|![Example 1 Output](images/1_after.png)|
+||Image has been reduced in size to save space|
